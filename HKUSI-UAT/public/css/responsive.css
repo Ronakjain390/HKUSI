@@ -1,0 +1,66 @@
+@media (min-width: 1400px) {
+    .container-xxl,
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container {
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width:991px){
+    .content_start{
+        justify-content: flex-start !important;
+        margin-top: 15px;
+    }
+}
+@media only screen and (max-width:767px){
+    .flex-filter-box{
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .input-calender{
+        margin-bottom: 5px;
+    }
+}
+@media only screen and (max-width:575px){
+    .input-calender input{
+        width: 100%;
+    }
+    .flex-filter-box .input-calender{
+        width: 100%;
+        margin-right: 0 !important;
+    }
+    .flex-filter-box{
+        margin-right: 0;
+    }
+    .filter-label,.filter-icon{
+        width: 100%;
+    }
+    .filter-button button{
+        margin-left: 0;
+        margin-bottom: 5px;
+    }
+    .search-flex{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .search-box{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+    .fliter-flex{
+        flex-wrap: wrap;
+    }
+    .filter-dropdown{
+        width: 100%;
+        margin-right: 0 !important;
+        margin-bottom: 5px;
+    }
+    .filter-dropdown .select-custom{
+        width: 100%;
+    }
+    .filter-button{
+        margin-right: 10px;
+    }
+}

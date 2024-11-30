@@ -1,0 +1,148 @@
+[24-Apr-2023 07:07:02 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Console\Kernel" does not exist in /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Console\\Ker...')
+#1 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Console\\Ker...')
+#2 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Console\\Ker...', Array, false)
+#3 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Console\\Ker...', Array, false)
+#4 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build(Object(Closure))
+#6 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home/hkurovertechcom/public_html/admin/artisan(33): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Console\Kernel] does not exist. in /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php:879
+Stack trace:
+#0 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Console\\Ker...')
+#1 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Console\\Ker...', Array, false)
+#2 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Console\\Ker...', Array, false)
+#3 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build(Object(Closure))
+#5 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home/hkurovertechcom/public_html/admin/artisan(33): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[24-Apr-2023 07:07:02 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Console\Kernel" does not exist in /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Console\\Ker...')
+#1 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Console\\Ker...')
+#2 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Console\\Ker...', Array, false)
+#3 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Console\\Ker...', Array, false)
+#4 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build(Object(Closure))
+#6 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home/hkurovertechcom/public_html/admin/artisan(33): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Console\Kernel] does not exist. in /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php:879
+Stack trace:
+#0 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Console\\Ker...')
+#1 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Console\\Ker...', Array, false)
+#2 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Console\\Ker...', Array, false)
+#3 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build(Object(Closure))
+#5 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home/hkurovertechcom/public_html/admin/artisan(33): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[24-Apr-2023 07:07:02 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Console\Kernel" does not exist in /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Console\\Ker...')
+#1 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Console\\Ker...')
+#2 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Console\\Ker...', Array, false)
+#3 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Console\\Ker...', Array, false)
+#4 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build(Object(Closure))
+#6 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home/hkurovertechcom/public_html/admin/artisan(33): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Console\Kernel] does not exist. in /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php:879
+Stack trace:
+#0 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Console\\Ker...')
+#1 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Console\\Ker...', Array, false)
+#2 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Console\\Ker...', Array, false)
+#3 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build(Object(Closure))
+#5 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home/hkurovertechcom/public_html/admin/artisan(33): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[11-May-2023 13:55:55 UTC] PHP Warning:  require_once(/home/hkurovertechcom/public_html/admin/bootstrap/app.php): Failed to open stream: No such file or directory in /home/hkurovertechcom/public_html/admin/artisan on line 20
+[11-May-2023 13:55:55 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/hkurovertechcom/public_html/admin/bootstrap/app.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/hkurovertechcom/public_html/admin/artisan:20
+Stack trace:
+#0 {main}
+  thrown in /home/hkurovertechcom/public_html/admin/artisan on line 20
+[11-May-2023 13:56:07 UTC] PHP Warning:  Module 'SourceGuardian' already loaded in Unknown on line 0
+[11-May-2023 13:56:39 UTC] PHP Warning:  require_once(/home/hkurovertechcom/public_html/admin/bootstrap/app.php): Failed to open stream: No such file or directory in /home/hkurovertechcom/public_html/admin/artisan on line 20
+[11-May-2023 13:56:39 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/hkurovertechcom/public_html/admin/bootstrap/app.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/hkurovertechcom/public_html/admin/artisan:20
+Stack trace:
+#0 {main}
+  thrown in /home/hkurovertechcom/public_html/admin/artisan on line 20
+[11-May-2023 13:57:17 UTC] PHP Warning:  require_once(/home/hkurovertechcom/public_html/admin/bootstrap/app.php): Failed to open stream: No such file or directory in /home/hkurovertechcom/public_html/admin/artisan on line 20
+[11-May-2023 13:57:17 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/hkurovertechcom/public_html/admin/bootstrap/app.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/hkurovertechcom/public_html/admin/artisan:20
+Stack trace:
+#0 {main}
+  thrown in /home/hkurovertechcom/public_html/admin/artisan on line 20
+[11-May-2023 13:57:43 UTC] PHP Warning:  require_once(/home/hkurovertechcom/public_html/admin/bootstrap/app.php): Failed to open stream: No such file or directory in /home/hkurovertechcom/public_html/admin/artisan on line 20
+[11-May-2023 13:57:43 UTC] PHP Fatal error:  Uncaught Error: Failed opening required '/home/hkurovertechcom/public_html/admin/bootstrap/app.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/hkurovertechcom/public_html/admin/artisan:20
+Stack trace:
+#0 {main}
+  thrown in /home/hkurovertechcom/public_html/admin/artisan on line 20
+[16-May-2023 12:10:08 UTC] PHP Warning:  include(/home/hkurovertechcom/public_html/admin/vendor/composer/../../app/Console/Kernel.php): Failed to open stream: No such file or directory in /home/hkurovertechcom/public_html/admin/vendor/composer/ClassLoader.php on line 571
+[16-May-2023 12:10:08 UTC] PHP Warning:  include(): Failed opening '/home/hkurovertechcom/public_html/admin/vendor/composer/../../app/Console/Kernel.php' for inclusion (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home/hkurovertechcom/public_html/admin/vendor/composer/ClassLoader.php on line 571
+[16-May-2023 12:10:08 UTC] PHP Fatal error:  Uncaught ReflectionException: Class "App\Console\Kernel" does not exist in /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php:877
+Stack trace:
+#0 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(877): ReflectionClass->__construct('App\\Console\\Ker...')
+#1 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Console\\Ker...')
+#2 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Console\\Ker...', Array, false)
+#3 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Console\\Ker...', Array, false)
+#4 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#5 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build(Object(Closure))
+#6 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#7 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#8 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#9 /home/hkurovertechcom/public_html/admin/artisan(33): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#10 {main}
+
+Next Illuminate\Contracts\Container\BindingResolutionException: Target class [App\Console\Kernel] does not exist. in /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php:879
+Stack trace:
+#0 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build('App\\Console\\Ker...')
+#1 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('App\\Console\\Ker...', Array, false)
+#2 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(296): Illuminate\Foundation\Application->resolve('App\\Console\\Ker...', Array, false)
+#3 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(873): Illuminate\Container\Container->Illuminate\Container\{closure}(Object(Illuminate\Foundation\Application), Array)
+#4 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(758): Illuminate\Container\Container->build(Object(Closure))
+#5 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(851): Illuminate\Container\Container->resolve('Illuminate\\Cont...', Array, true)
+#6 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php(694): Illuminate\Foundation\Application->resolve('Illuminate\\Cont...', Array)
+#7 /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(836): Illuminate\Container\Container->make('Illuminate\\Cont...', Array)
+#8 /home/hkurovertechcom/public_html/admin/artisan(33): Illuminate\Foundation\Application->make('Illuminate\\Cont...')
+#9 {main}
+  thrown in /home/hkurovertechcom/public_html/admin/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 879
+[02-Jun-2023 08:08:47 UTC] PHP Warning:  Module 'SourceGuardian' already loaded in Unknown on line 0
+[02-Jun-2023 08:08:53 UTC] PHP Warning:  Module 'SourceGuardian' already loaded in Unknown on line 0
+[02-Jun-2023 16:08:53 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/hkurovertechcom/public_html/admin/vendor/psr/log/src/LoggerInterface.php on line 30
+[02-Jun-2023 16:08:53 Asia/Hong_Kong] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[02-Jun-2023 16:08:53 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/hkurovertechcom/public_html/admin/vendor/psr/log/src/LoggerInterface.php on line 30
+[02-Jun-2023 16:08:53 Asia/Hong_Kong] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[15-Jun-2023 05:29:54 UTC] PHP Warning:  Module 'SourceGuardian' already loaded in Unknown on line 0
+[15-Jun-2023 05:31:21 UTC] PHP Warning:  Module 'SourceGuardian' already loaded in Unknown on line 0
+[15-Jun-2023 05:31:39 UTC] PHP Warning:  Module 'SourceGuardian' already loaded in Unknown on line 0
+[15-Jun-2023 05:32:52 UTC] PHP Warning:  Module 'SourceGuardian' already loaded in Unknown on line 0
+[15-Jun-2023 05:39:51 UTC] PHP Warning:  Module 'SourceGuardian' already loaded in Unknown on line 0
+[15-Jun-2023 05:41:24 UTC] PHP Warning:  Module 'SourceGuardian' already loaded in Unknown on line 0
+[15-Jun-2023 05:41:53 UTC] PHP Warning:  Module 'SourceGuardian' already loaded in Unknown on line 0
+[15-Jun-2023 13:41:53 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/hkurovertechcom/public_html/admin/vendor/psr/log/src/LoggerInterface.php on line 30
+[15-Jun-2023 13:41:53 Asia/Hong_Kong] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
+[15-Jun-2023 13:41:53 Asia/Hong_Kong] PHP Parse error:  syntax error, unexpected '|', expecting variable (T_VARIABLE) in /home/hkurovertechcom/public_html/admin/vendor/psr/log/src/LoggerInterface.php on line 30
+[15-Jun-2023 13:41:53 Asia/Hong_Kong] PHP Fatal error:  Exception thrown without a stack frame in Unknown on line 0
